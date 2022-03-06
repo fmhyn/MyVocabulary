@@ -1,10 +1,65 @@
 
+body{
+  background: #fafad2;
+}
 
- p{
+body,
+p{
+  margin: 0;
+}
+
+p{
   font-size: 32px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  background: white;
+}
+
+button{
+  height: 40px;
+  width: 100%;
+  font-size: 4px;
+  border: none;
+  cursor: pointer;
+  background: #add8e693;
+  transition: opacity .3s;
+}
+
+button:hover{
+  opacity: .5;
 }
 
 button{
   padding: 4px;
 } 
+
+section{
+  margin: 100px auto;
+  width: 80%;
+}
+div{
+  width: 360px;
+  position: relative;
+}
+
+div+div{
+  margin-top: 80px;
+}
+
+i{
+  color: gray;
+  user-select: none;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+
+i.none{
+  display: none;
+}
+
+i.checked{
+  color: yellow;
+}
 
